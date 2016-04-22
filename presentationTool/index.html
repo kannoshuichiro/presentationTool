@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<link rel="STYLESHEET" href="style.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+	<title>Presentation Tool</title>
+</head>
+<body>
+<div class="container">	
+	<h1 class="title">BigBuckBunny</h1>
+	<div class="player">
+		<video data-video-id="4848179497001" 
+		data-account="4846977608001" 
+		data-player="default" 
+		data-embed="default" 
+		class="video-js" 
+		controls></video>
+		<script src="//players.brightcove.net/4846977608001/default_default/index.min.js"></script>
+		<div id="insertionPoint">
+			<div class="findChapter">
+				<ul>CONTENTS
+					<li onclick = "findChapter(1)">Chapter１</li>
+					<li onclick = "findChapter(2)">Chapter２</li>
+					<li onclick = "findChapter(3)">Chapter３</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="slide"></div>
+</div>
+<script type="text/javascript" src="js/control.js"></script>
+</body>
+</html>

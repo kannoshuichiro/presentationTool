@@ -1,0 +1,43 @@
+.container{
+	width: 1024px;
+	margin: 0px auto;
+	padding: 10px;
+}
+
+.player{
+	float: left;
+}
+
+.player:after{
+	content: "";
+	clear:both;
+	display: block;
+}
+
+.findChapter{
+	height: 140px;
+	padding: 5px;
+	background-color: #aadeb4;
+	color: #033c0e;
+}
+
+.findChapter li{
+	padding-left:5px;
+	border: 1px solid #033c0e;
+	background-color: #fff;
+	margin-bottom: 15px;
+	cursor:pointer;
+}
+
+.findChapter li:hover{
+	opacity: 0.7;
+}
+
+.title{
+	font-size: 1.2em;
+	color: #333;
+}
+
+.slide{
+	margin-left: 30px;
+}

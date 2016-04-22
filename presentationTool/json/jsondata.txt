@@ -1,0 +1,6 @@
+{"item":[
+{"setTime":"0","slidePath":"img/first.png"},
+{"setTime":"10","slidePath":"img/second.png"},
+{"setTime":"20","slidePath":"img/third.png"}
+]
+}
